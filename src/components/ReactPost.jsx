@@ -11,7 +11,7 @@ setPostLiked(!postLiked)
 return (
 <div className="ReactFact">
 <h3>Q: {props.question}</h3>
-<h3>Answer: {props.answer}</h3>
+<p>Answer: {props.answer}</p>
 {postLiked?<PostLiked/> : (<button onClick={()=>{likePost()}}>LIKE</button>)}
 
 </div>

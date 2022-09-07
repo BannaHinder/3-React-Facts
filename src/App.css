@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #282c34;
+  background-color: #c2cce0;
 }
 
 .App-logo {
@@ -13,27 +13,38 @@
 }
 
 .App-header {
-  background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 1vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .ReactFact{
-  border:solid 1px #61dafb;
+  border:double 4px white;
   margin: 20px;
-  padding-bottom: 10px;
+  padding: 20px;
+  border-radius: 20px;
 }
 .liked{
   color:greenyellow;
   background-color: darkgreen;
+  border-radius: 20px;
+  padding: 20px;
   width: 40%;
+}
+
+.darkMode{
+  background-color: #1a1d22;
+  color: white;
+}
+
+button{
+  background: #1a1d22;
+  border: 3px double white; 
+  color: white;
+  padding: 5px 15px;
+  border-radius: 15px;
 }
